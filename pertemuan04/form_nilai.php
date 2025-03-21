@@ -15,7 +15,7 @@ require_once '../pertemuan04/class_nilai_mahasiswa.php';
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Form Nilai Mahasiswa</h5>
-        <form method="POST" action="./nilai_siswa.php">
+        <form method="POST" action="">
   <div class="form-group row">
     <label for="nama" class="col-4 col-form-label">Nama Lengkap</label> 
     <div class="col-8">
@@ -60,7 +60,7 @@ require_once '../pertemuan04/class_nilai_mahasiswa.php';
 
 
     <?php
-    include_once '../pertemuan04/daftar_nilai.php';
+    include_once 'daftar_nilai.php';
     ?>
     
 </body>
